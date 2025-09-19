@@ -5,11 +5,23 @@ for the **Office Portal** project.
 
 ## Overview
 
-The Office Portal system provides internal access to reporting, 
-timesheet management, and compliance auditing features.  
+The Office Portal system provides internal access to reporting, timesheet management, and compliance auditing features.  
 
 These utilities are primarily used for testing and prototyping purposes.  
 *Do not use in production.*
+
+## Configuration Example
+
+For reference in this challenge, here’s some example pieces of the config:
+
+sessionTimeout: 30
+
+officePortal.internalAudit: enabled
+
+twoFactorAuth: required
+
+
+These values reflect how core services are toggled and secured during deployment.
 
 ## Contents
 
